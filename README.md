@@ -13,3 +13,10 @@ Might be forgetting things.  It'll drag until you are full or you need to repair
 All of the macros start from the main menu screen. I think... the Like one might not.
 
 I probably won't update this, enjoy.
+
+You'll need to edit things brainlets.  For instance
+in 43E line number 97
+  Formation("Dolls/9A91.PNG", "Dolls/SOPMOD.PNG", 9, 8)
+  You'll need to put the path to the image of your two corpse dragging ARs and then the slot they appear in left to right up to down when you filter your dolls to only show ARs.
+General example
+  Formation("Doll1.PNG", "Doll2.PNG", Slot# for Doll 1, Slot# for Doll 2)
